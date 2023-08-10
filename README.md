@@ -50,8 +50,4 @@ When you run the program, you will see the following outputs:
 
 Please note that this program is a simulation and does not involve real transactions or physical products.
 
-Feel free to explore the different candles available in the shop and enjoy the virtual shopping experience!
-
----
-
-Feel free to modify the instructions and descriptions to match your preferences or to provide additional information if needed.
+Please explore the different candles available in the shop and enjoy the virtual shopping experience!
