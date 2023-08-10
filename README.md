@@ -44,8 +44,7 @@ When you run the program, you will see the following outputs:
 
 3. Prompts to select and purchase candles. You can enter the quantity of each candle you want to buy.
 
-4. If you choose to buy candles, a receipt will be displayed, showing the details of your purchases, including the candle names, descriptions, quantities, burn times, dollar per burn time, and total prices.
+4. If you choose to buy candles, a receipt will be displayed, showing the details of your purchases, including the candle names, descriptions, quantities, burn times, dollar per burn time, order totals and a thank you message for visiting the Candle Shop.
 
-5. The total burn time, total dollar per burn time, and ovaer-all total price of your purchases and a thank you message for visiting the Candle Shop.
 
-Please explore the different candles available in the shop and enjoy the virtual shopping experience!
+Thank you and enjoy my very first program!
