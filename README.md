@@ -1,14 +1,14 @@
 # Beauty and the Beast Candle Shop
 
-This Java program simulates a candle shop where users can browse and purchase different types of candles inspired by the characters and locations from "Beauty and the Beast."
+This Java program allows the user to browse and purchase different types of candles inspired by the movie "Beauty and the Beast."
 
 ## How the Code Functions
 
-The program creates a candle shop simulation with the following functionality:
+This code utilizes the console to ... 
 
-1. Displays a list of available candles with their names, descriptions, and prices.
-2. Allows users to select and purchase candles, specifying the quantity they want.
-3. Calculates the total price for the purchased candles and generates a receipt.
+1. Display a list of available candles with the name, description, and price.
+2. Allow users to select and purchase candles, specifying the quantity they want.
+3. Calculate the total price for the purchased candles and generates a receipt.
 
 ## How to Run the Code
 
