@@ -1,3 +1,4 @@
+// This is the repo'ed final version
 // Importing the 'java.util' package to use the Scanner and ArrayList classes
 import java.util.*;
 // The Scanner class allows us to read user input
@@ -139,6 +140,7 @@ public class CandleShop {
             System.out.println("Description: " + candle.getDescription());
             System.out.println("Amount: " + candle.getInventory());
             System.out.println("Burn Time: " + candle.getBurnTime() + " hours");
+            // Use " String.format("%.2f" " to format the prices to always be a number with two decimals so prices of $12.5 or $12 show up as $12.50 or $12.00
             System.out.println("Dollar per Burn Time: " + String.format("%.2f", candle.getDollarPerBurnTime()));
             System.out.println("Price: $" + String.format("%.2f", candle.getPrice() * candle.getInventory()));
             System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
