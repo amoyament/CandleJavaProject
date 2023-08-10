@@ -48,6 +48,4 @@ When you run the program, you will see the following outputs:
 
 5. The total price of your purchases and a thank you message for visiting the Candle Shop.
 
-Please note that this program is a simulation and does not involve real transactions or physical products.
-
 Please explore the different candles available in the shop and enjoy the virtual shopping experience!
