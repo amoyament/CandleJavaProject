@@ -76,6 +76,8 @@ public class CandleShop {
         //Create Variables for the selected candles for purchase and the total amount
         double totalAmount = 0;
         List<Candle> purchasedCandles = new ArrayList<>();
+        double totalBurnTime = 0;
+        double totalDollarPerBurnTime = 0;
 
         // Loop to allow the user to select and buy candles until they choose to exit
         do {
@@ -139,14 +141,19 @@ public class CandleShop {
             System.out.println("Description: " + candle.getDescription());
             System.out.println("Amount: " + candle.getInventory());
             System.out.println("Burn Time: " + candle.getBurnTime() + " hours");
-            // Use " String.format("%.2f" " to format the prices to always be a number with two decimals so prices of $12.5 or $12 show up as $12.50 or $12.00
+            // Use "String.format("%.2f"" to format the prices to always be a number with two decimals so prices of $12.5 or $12 show up as $12.50 or $12.00
             System.out.println("Dollar per Burn Time: $" + String.format("%.2f", candle.getDollarPerBurnTime()));
             System.out.println("Price: $" + String.format("%.2f", candle.getPrice() * candle.getInventory()));
             System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+            // Calculate totals
+            totalBurnTime += candle.getBurnTime() * candle.getInventory();
+            totalDollarPerBurnTime += candle.getDollarPerBurnTime() * candle.getInventory();
         }
 
-        // Print total and thank you
-        System.out.println("\nTotal Price: $" + String.format("%.2f", totalAmount));
+        // Print totals and thank you
+        System.out.println("\nTotal Burn Time: " + totalBurnTime + " hours");
+        System.out.println("Total Dollar per Burn Time: $" + String.format("%.2f", totalDollarPerBurnTime));
+        System.out.println("Total Price: $" + String.format("%.2f", totalAmount));
         System.out.println("Thank you for visiting the Candle Shop!");
     }
 }
